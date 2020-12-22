@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FEEDBACK</title>
+	<link rel="stylesheet" type="text/css" href="f_b.css">
+		
+	</style>
+</head>
+<body>
+
+		<h1>YOUR FEEDBACK MATTERS!</h1>
+
+		<p>
+			We would love to hear your thoughts,suggestions,concerns or problems with<br> 
+			anything so we can improve.<br><br>
+
+			Because what u write us will help us to improve our tactics.
+		</p>
+
+		
+
+		
+			<h3 class="he" style="color: grey;">Personal Information</h3>
+
+		<form id="form" action="feedback_php.php" method="POST" autocomplete="off">	
+
+			<div id="theform" >
+
+				<div class="web_form"> 
+				<label for="First">First Name</label>
+				<input type="text" name="First" id="First" required="">
+				</div>
+				<br>
+
+				<div class="web_form"> 
+				<label for="Last">Last Name</label>
+				<input type="text" name="Last" id="Last" required="">
+				</div>
+				<br>
+
+
+				<div class="web_form"> 
+				<label for="Mobile">Mobile</label>
+				<input type="mobile" name="Mobile" id="Mobile" required="">
+				</div>
+				<br>
+
+				<div class="web_form"> 
+				<label for="Profession">Profession</label>
+				<input type="text" name="Profession" id="Profession" required="">
+				</div>
+				<br>
+
+				<div class="web_form"> 
+				<label for="Email">email_id</label>
+				<input type="email" name="Email" id="Email" required="">
+				</div>
+				<br>
+
+
+
+			</div>
+
+				
+					<h3 class="he" style="color: grey;">Choose What you prefer!</h3>
+				
+			<div id="tform">
+
+					<div class="wb_form">
+					<label for="teaching">Which method of teaching do you prefer more?</label>
+					<input type="radio" name="teaching" id="Online"  value="Online">Online
+					<input type="radio" name="teaching" id="Offline" value="Offline">Offline
+					</div>
+					<br>
+
+					<div class="wb_form">
+					<label for="Exams">Do you encourage theory exams?</label>
+					<input type="radio" name="Exams" id="YesEx" value="Yes" >Yes
+					<input type="radio" name="Exams" id="NoEx" value="No">No
+					</div>
+					<br>
+
+					<div class="wb_form">
+					<label for="Yesbce">Is Business and Communications Ethics an important subject?</label>
+					<input type="radio" name="Yesbce" id="YesBce" value="Yes" >Yes
+					<input type="radio" name="Yesbce" id="NoBce" value="No">No
+					</div>
+					<br>
+			</div>
+
+				
+					<h3 class="he" style="color: grey;">Select!</h3>
+				
+				<div id="lab">
+					<label for="Langs">Which programming languages do you know?</label><br>
+				</div>
+
+					<div id="op">
+					<input type="checkbox" name="Langs" id="java" value="Java">Java
+					<input type="checkbox" name="Langs" id="python" value="Python">Python
+					<input type="checkbox" name="Langs" id="c" value="C">C
+					<input type="checkbox" name="Langs" id="none" value="None">None
+					</div>
+			</div>
+
+				
+					<h3 class="he" style="color: grey;">Describe your feedback</h3>
+				<div id="des">
+					<textarea name="feedback"></textarea><br>
+				</div>
+
+				<div id="sub">
+					<button type="submit">GO!</button>
+				</div>
+
+
+
+			</form>
+
+
+
+</body>
+</html>

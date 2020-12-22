@@ -1,0 +1,47 @@
+
+h1{   text-align: center;   background-color: 
+} 
+ul { 
+ list-style-type: none;
+   margin: 0; 
+    padding: 0; 
+     overflow: hidden; 
+ background-color: yellow; 
+}  
+li {  float: left; 
+}  
+li a { 
+ display: block;  color: green; 
+  text-align: center;
+    padding: 15px; 
+ text-decoration: none; 
+} 
+ 
+li a:hover { 
+ background-color: black; 
+} 
+.headidng{ 
+  text-align: center; 
+  background-color: red; 
+} 
+#pseudo{ 
+  width: 500px;
+  background-color: white;
+  border-style: solid;
+  border-width: 15px;
+     padding: 50px; 
+  margin: 20px; 
+} 
+#pseudo::selection{   background-color: white; 
+  color: red; 
+} 
+a{   text-decoration: none;   font-size: 30px; 
+  color: #11111; 
+ } 
+
+} 
+a:hover{ 
+  color: yellow; 
+} 
+h3.heading{   margin-left: 60px;   color: #11111 
+} 
